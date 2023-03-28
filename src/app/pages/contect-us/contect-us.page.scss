@@ -1,0 +1,130 @@
+.container {
+  width:100%;
+  margin: 0 auto;
+  padding: 0 60px;
+  
+ }
+
+
+
+
+
+ion-text {  
+    h1{
+      margin-top:60px;
+      margin-bottom: 70px;
+      color:#F97C7C;
+    
+  }
+ 
+   
+  }
+ 
+
+  .primary-input {
+    background: rgb(254, 255, 255);
+    border: 3px solid #F97C7C;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    
+  
+    
+
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
+   }
+   .primary{
+    background: rgb(254, 255, 255);
+    border: 3px solid #F97C7C;
+    border-radius: 30px;
+    margin-bottom: 30px;
+   
+
+
+
+   }
+   ion-button {
+    --background: #F97C7C !important;
+    color: rgb(253, 249, 249); /* set text color */
+    margin-top: 10px;
+    --border-radius: 30px;
+  }
+  
+  
+
+.copy{
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-top:150px;
+
+}
+
+ion-checkbox {
+  
+  --background-checked: #6815ec;
+}
+
+ion-checkbox::part(container) {
+  border-radius: 30px;
+  border: 2px solid #F97C7C;
+}
+//.....................................................................................
+
+ion-card{
+  margin-left: 30px;
+  ion-img {
+
+    display:flex;
+    width: 600px !important; /* set the width */ 
+}
+
+}
+.social{
+  ion-img{
+    display:flex;
+    width: 40px;
+    justify-content: center;
+    margin:60px 80px 5px 40px;
+
+  }
+}
+
+
+.socials{
+  display: flex;
+  align-items: center; /* center the child elements vertically */
+  ion-img {
+    width: 30px; /* set the width of the image */
+    height: 30px; /* set the height of the image */
+    margin-right: 10px; 
+    margin:10px 10px 10px 30px;
+
+  }
+}
+
+
+
+.phone-number {
+  font-size: 16px; /* set the font size of the phone number */
+}
+
+.get {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  color:#F97C7C;
+  .get-in-touch {
+    font-size: 24px;
+    border-bottom: 2px solid #D9D9D9;
+    padding-bottom: 10px;
+  }
+  
+}
+
+
+

@@ -1,0 +1,60 @@
+
+
+
+ion-text {  
+    h1{
+      margin-top:60px;
+      margin-bottom: 70px;
+      color:#F97C7C;
+  }
+ 
+   
+  }
+ 
+
+  .primary-input {
+    background: rgb(254, 255, 255);
+    border: 3px solid #F97C7C;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    
+
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
+   }
+   .login{
+    background: #F97C7C;
+   
+    border-radius: 30px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  
+  }
+
+.copy{
+
+  display: flex;
+  align-items: flex-end;
+  margin-top:150px;
+  justify-content: center;
+
+}
+
+ion-checkbox {
+  
+  --background-checked: #6815ec;
+}
+
+ion-checkbox::part(container) {
+  border-radius: 30px;
+  border: 2px solid #F97C7C;
+}
+
+
+

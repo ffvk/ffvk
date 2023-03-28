@@ -1,0 +1,101 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>product</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col class="gg">
+        <ion-text><h1>Open Face Helmate</h1></ion-text><br>
+        <ion-text>Rating:-</ion-text>
+        <ion-icon name="start"></ion-icon>
+        <ion-row>
+          <ion-card color="secondary">
+            <ion-img src="/assets/icon/helmate.jpg"></ion-img>
+          </ion-card>
+  
+        </ion-row>
+  
+      </ion-col>
+
+
+      <ion-col class="price">
+        <ion-text >Prics: 
+          <h1>$299.00</h1>
+        </ion-text><br>
+        <ion-text>Color: </ion-text><br>
+        <ion-row class="colors">
+          <ion-button color="danger"></ion-button>
+        <ion-button color=""></ion-button>
+        <ion-button color=""></ion-button>
+        <ion-button color="warning"></ion-button>
+        </ion-row>
+        <br>
+        <ion-text>Size:</ion-text><br>
+       <ion-row >
+        
+        <ion-button>M</ion-button>
+        <ion-button>XXL</ion-button>
+        <ion-button>XL</ion-button>
+        <ion-button>S</ion-button>
+
+       </ion-row>
+        
+       <ion-text>QFY</ion-text>
+       <ion-row>
+
+        
+       </ion-row>
+      
+      <div class="button">
+        <ion-button class="add-to-card" expand="block">ADD TO CARD</ion-button>
+        <ion-button expand="block">BUY NOW</ion-button>
+      </div>
+      </ion-col>
+      
+    </ion-row>
+
+    <ion-row>
+      
+    </ion-row>
+  </ion-grid>
+<!----->
+<ion-grid>
+  <ion-row>
+    <ion-col>
+      <ion-button (click)="showYellow()" checked>Button1</ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button (click)="showRed()">Button2</ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button (click)="showBlack()">Button3</ion-button>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+      <ion-card *ngIf="yellowCardVisible" color="yellow">
+        <ion-card-content>
+          Yellow Card
+        </ion-card-content>
+      </ion-card>
+      <ion-card *ngIf="redCardVisible" color="red">
+        <ion-card-content>
+          Red Card
+        </ion-card-content>
+      </ion-card>
+      <ion-card *ngIf="blackCardVisible" color="black">
+        <ion-card-content>
+          Black Card
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+
+
+
+</ion-content>

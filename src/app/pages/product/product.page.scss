@@ -1,0 +1,42 @@
+
+  .price{
+    margin-top: 50px;
+   
+  }
+  .colors{
+    ion-button{
+      margin-right: 60px;
+    }
+  }
+
+ 
+
+
+
+
+ion-card{
+    ion-img {
+  
+      display:flex;
+      width: 500px !important; 
+  }
+  
+  }
+.button{
+  ion-button {
+    --background: #FC4E4E !important;
+    color: rgb(253, 249, 249); /* set text color */
+    margin-top: 10px;
+    --border-radius: 30px;
+  }
+  .add-to-card{
+    --background: #F97C7C !important;
+    color: rgb(253, 249, 249); /* set text color */
+    margin-top: 100px;
+    --border-radius: 30px;
+
+  
+}
+}
+
+  
